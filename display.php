@@ -2,6 +2,7 @@
     <head>
         <title>Display</title>
     <link rel="bosstrap" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -52,5 +53,16 @@
              <td ><a href='edit.php?id=$row[id]'>EDIT</a></td> "  ;
             }
             ?>
+            <style>
+                table, th, td {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    padding: 15px;
+                    text-align: left;
+                }
+                
+            </style>
 
 </html>
